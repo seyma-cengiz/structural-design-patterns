@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns.Adapter", "StructuralPatterns.Adapter", "{33A459FE-92B2-40EB-ABEE-2E146A06B039}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPatterns.Adapter", "StructuralPatterns.Adapter\StructuralPatterns.Adapter.csproj", "{69F5F579-6C02-48CD-BD14-7DE7427C0EB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralPatterns.Adapter", "StructuralPatterns.Adapter\StructuralPatterns.Adapter.csproj", "{69F5F579-6C02-48CD-BD14-7DE7427C0EB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns.Decorator", "StructuralPatterns.Decorator", "{24AB1923-A714-4B82-BA22-9B4E4B576E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPatterns.Decorator", "StructuralPatterns.Decorator\StructuralPatterns.Decorator.csproj", "{29AD6C99-0121-4D1C-B247-72512578E2C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{69F5F579-6C02-48CD-BD14-7DE7427C0EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69F5F579-6C02-48CD-BD14-7DE7427C0EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69F5F579-6C02-48CD-BD14-7DE7427C0EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29AD6C99-0121-4D1C-B247-72512578E2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29AD6C99-0121-4D1C-B247-72512578E2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29AD6C99-0121-4D1C-B247-72512578E2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29AD6C99-0121-4D1C-B247-72512578E2C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{69F5F579-6C02-48CD-BD14-7DE7427C0EB1} = {33A459FE-92B2-40EB-ABEE-2E146A06B039}
+		{29AD6C99-0121-4D1C-B247-72512578E2C2} = {24AB1923-A714-4B82-BA22-9B4E4B576E8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C8C3662-363F-4F97-B67A-EF3F6B304975}
